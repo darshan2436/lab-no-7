@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap:nowrap;
+            justify-content:space-around;
+            align-items: center;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+            background-color: red;
+        }
+        #item1{
+            order: 3;
+        }
+         #item2{
+            flex-grow: 2;
+            flex-shrink: 5;
+            flex-basis: 150px;
+        }
+        #item3 {
+          flex: 1 1 100px;  
+        }
+        #item4 {
+          align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <h1>Properties of Flexbox</h1>
+    <div class="container">
+        <div class="item" id="item1">1</div>
+        <div class="item" id="item2">2</div>
+        <div class="item" id="item3">3</div>
+        <div class="item" id="item4">4</div>
+    </div>
+</body>
+</html>
