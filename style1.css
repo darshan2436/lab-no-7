@@ -1,0 +1,40 @@
+.header1{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.body{
+    margin-top: 5px;
+    display: flex;
+}
+.top{
+    margin-top: 5px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1px;
+}
+.left{
+    width: 19%;
+}
+.main{
+    margin-left: 5px;
+    width: 80%;
+}
+.right{
+    margin-left: 5px;
+    width: 19%;
+}
+.main,.left,.right{
+    margin-top: 1px;
+    background-color: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.footer{
+    margin-top: 5px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
