@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+}
+#home img{
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.navbar{
+    display: flex;
+    background-color: lightgray;
+    position: sticky;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+.navbar a:hover{
+    background-color: black;color: white;
+}
+section{
+    padding: 20px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+td{
+    padding: 15px;
+}
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+caption{
+    color: rgb(45, 142, 227);
+}
+caption{
+    font-size: 32px;
+}
+#biodata{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+#feedback{
+    display: flex;
+    margin-right: 50px;
+}
+h5{
+    margin-left: 50px;
+}
+#maps{
+    margin-left: 50px;
+    float: right;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(197, 195, 195);
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
